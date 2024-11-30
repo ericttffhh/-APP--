@@ -1,0 +1,117 @@
+body {
+    background-color: #000000; /* 深色模式背景 */
+    color: #ae0003; /* 字體顏色 */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding-top: 50px; /* 留出空間給固定導航欄 */
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #171616;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
+    color: #8e25f7;
+    text-decoration: none;
+    padding: 15px 20px;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: #575757;
+}
+
+section#about {
+    margin: 50px;
+    text-align: center;
+}
+
+section#about h1, section#about h2 {
+    color: #ffffff;
+}
+
+section#about p, section#about ul {
+    text-align: left;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+section#about ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+video {
+    width: 400px; /* 設定影片寬度 */
+    height: auto; /* 自動調整高度以保持比例 */
+}
+
+.download-button {
+    background-color: #aa00ff;
+    color: #ffffff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    border: 2px solid #aa00ff; /* 添加白色外框 */
+}
+
+.download-button:hover {
+    background-color: #580bff;
+    border-color: #cccccc; /* 滑鼠懸停時更改外框顏色 */
+}
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.fullscreen-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+    background-color: #000000; /* 深色背景 */
+    color: #ffffff; /* 白色文字 */
+    flex-direction: column;
+}
+h1 {
+    font-size: 3em; /* 將文字放大為正常大小的三倍 */
+}
+img {
+    width: 300px; /* 設定圖片寬度 */
+    height: auto; /* 自動調整高度以保持比例 */
+}
+
+
+
+
+#sentence1 {
+    display: flex;
+}
